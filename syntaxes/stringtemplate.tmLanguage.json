@@ -52,8 +52,8 @@
 		},
 		"comment": {
 			"name": "comment.block.stringtemplate",
-			"begin": "(?<!\\\\)\\$!",
-			"end": "!(?<!\\\\)\\$"
+			"begin": "(?<!\\\\)\\<!",
+			"end": "!(?<!\\\\)\\>"
 		},
 		"strings": {
 			"name": "string.quoted.double.stringtemplate",
@@ -265,13 +265,13 @@
 		},
 		"placeholder": {
 			"name": "keyword.operator.stringtemplate",
-			"begin": "(?<!\\\\|!)\\$(?!!)",
+			"begin": "(?<!\\\\|!)\\<(?!!)",
 			"beginCaptures": {
 				"0": {
 					"name": "keyword.operator.stringtemplate"
 				}
 			},
-			"end": "(?<!\\\\)\\$",
+			"end": "(?<!\\\\)\\>",
 			"endCaptures": {
 				"0": {
 					"name": "keyword.operator.stringtemplate"
