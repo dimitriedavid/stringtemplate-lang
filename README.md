@@ -4,8 +4,6 @@ This project is a Visual Studio Code extension for [StringTempalte v4](https://w
 
 ## Getting Started
 
-You can install the extension from the [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=dangmarm.stringtemplate-lang) or manually by following the steps below.
-
 ### Manual installation
 
 #### Prerequisites
@@ -48,7 +46,7 @@ code --install-extension .\stringtemplate-lang-0.0.1.vsix
 
 ## Limitations
 
-At this moment it only supports templates that use '\$' as a delimiter.
+At this moment it only supports '<>', instead of '$' as a delimiter.
 
 ## License
 
