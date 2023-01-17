@@ -1,3 +1,4 @@
 out
 node_modules
-/stringtemplate-lang-0.0.1.vsix
+/stringtemplate-lang-0.0.2.vsix
+tsconfig.tsbuildinfo
